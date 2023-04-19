@@ -1,5 +1,4 @@
 from random import shuffle
-# import colorama
 from pathlib import Path
 
 from setting.config import SOUP_FILE, SLOGAN_APHORISM
