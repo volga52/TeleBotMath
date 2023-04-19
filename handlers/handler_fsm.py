@@ -63,7 +63,7 @@ class HandlerFSM(Handler):
         # Установка демонстрационного уравнения
         self.dp.math_element.message_dict['equation'] = FIRST_EXC_ANSWER[0]
         self.dp.math_element.message_dict['answer'] = FIRST_EXC_ANSWER[1]
-        print(self.dp.math_element.message_dict)
+        # print(self.dp.math_element.message_dict)
 
         await FSMEquation.test.set()
 
@@ -98,7 +98,7 @@ class HandlerFSM(Handler):
                 DENIAL: 'Не хорошо'}
 
             reply_text = (test_dict[response], response)
-            print(f'No number: react: {reply_text}')
+            # print(f'No number: react: {reply_text}')
 
         await message.reply(reply_text[0])
         message.text = reply_text[1]
@@ -116,7 +116,7 @@ class HandlerFSM(Handler):
                 # Получение нового уравнения
                 self.dp.math_element.get_main()
                 value_dict = self.dp.math_element.message_dict
-                print(value_dict)
+                # print(value_dict)
             # Контроль количества уравнений
             except StopIteration:
                 await FSMEquation.last.set()

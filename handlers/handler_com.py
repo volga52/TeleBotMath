@@ -65,7 +65,7 @@ class HandlerEcho(Handler):
         super().__init__(dispatcher)
 
     async def echo_message(self, msg: types.Message):
-        print('echo')
+        # print('echo')
         await self.bot.send_message(msg.from_user.id, msg.text)
 
     async def unknown_message(self, msg: types.Message):
