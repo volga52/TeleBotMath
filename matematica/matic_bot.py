@@ -11,7 +11,8 @@ from setting.config import VALUE_MAX_FOR_SIMPLE_EQUATIONS_START as VMAX_SE
 from setting.config import VALUE_MIN_FOR_SIMPLE_EQUATIONS_START as VMIN_SE
 from setting.messages import MISPRINT, DENIAL, YES, MATICBOTELEM_MES_DICT
 
-logger = logging.getLogger('mathic')
+# *** строки 79, 105
+# logger = logging.getLogger('mathic')
 
 
 class MaticBotElem:
@@ -75,7 +76,7 @@ class MaticBotElem:
         # Изменение уровня сложности
         # возвращает генератор списка [min, max]
         self.gen_level_difficulty = self.chang_dif_gen_simple_equations()
-        logger.info('Числовые уравнения. Запуск')
+        # logger.info('Числовые уравнения. Запуск')
         # Создание фабрики уравнений
         self.generator_equations = self.fabric_simple_equations()
 
@@ -101,7 +102,7 @@ class MaticBotElem:
         self.message_dict['number_test'] += 1   # меняем номер уравнения
 
         str_doc_num_test = f"Уравнение {self.message_dict.get('number_test')}"
-        logger.info(str_doc_num_test)
+        # logger.info(str_doc_num_test)
 
         return equation
 

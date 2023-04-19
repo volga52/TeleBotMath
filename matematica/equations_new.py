@@ -5,6 +5,7 @@ from typing import Optional
 import logs.config.config_log
 from setting.config import NUMBER, FRACTION
 
+# *** строки 74, 95
 logger = logging.getLogger('mathic')
 
 
@@ -70,7 +71,7 @@ class MathNumericalEquation:
                 self.c = self.b - self.a + self.d
                 self.sign_second = list_operations[1]
 
-        logger.info(f'Элементы выражения {self.a} {self.b} {self.c} {self.d}')
+        # logger.info(f'Элементы выражения {self.a} {self.b} {self.c} {self.d}')
 
     def create_rebus(self):
         """
@@ -91,8 +92,8 @@ class MathNumericalEquation:
         # Создаём строку учебного уравнения
         equation_string = self.create_string(terms_list)
 
-        logger.info(f"Составлено уравнение '{equation_string}' "
-                    f'Ответ {self.right_answer}')
+        # logger.info(f"Составлено уравнение '{equation_string}' "
+        #             f'Ответ {self.right_answer}')
         return equation_string
 
     def create_string(self, list_param=None):
