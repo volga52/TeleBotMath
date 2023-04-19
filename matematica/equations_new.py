@@ -2,7 +2,7 @@ import logging
 from random import randint
 from typing import Optional
 
-import logs.config.config_log
+# import logs.config.config_log
 from setting.config import NUMBER, FRACTION
 
 # *** строки 74, 95

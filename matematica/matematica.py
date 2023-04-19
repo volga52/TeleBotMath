@@ -2,7 +2,7 @@
 from time import sleep
 import logging
 
-import logs.config.config_log
+# import logs.config.config_log
 from setting.config import NUMBER_SIMPLE_EQUATIONS, \
     NUMBER_CHECK_FRACTIONS, LIST_OF_NEGATIVES, SLOGAN_APHORISM
 from setting.config import \
@@ -12,8 +12,8 @@ from setting.config import \
 
 from matematica.fractions_my_math import GenerationFractions
 from matematica.equations_new import MathNumericalEquation
-# from aphorisms.support_soul import Excerpt
-from aphorisms.support_soul import ExcerptOld as Excerpt
+from aphorisms.support_soul import Excerpt
+# from aphorisms.support_soul import ExcerptOld as Excerpt
 
 # from telegram_bot.setting.config import BOT_TOKEN
 

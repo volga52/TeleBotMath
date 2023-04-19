@@ -2,7 +2,7 @@ import logging
 from typing import Generator, Optional
 
 from aphorisms.support_soul import Excerpt
-import logs.config.config_log
+# import logs.config.config_log
 from matematica.equations_new import MathNumericalEquation
 from setting.config import NUMBER, FRACTION
 from setting.config import NUMBER_SIMPLE_EQUATIONS, \
