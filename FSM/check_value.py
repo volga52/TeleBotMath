@@ -1,6 +1,6 @@
 from typing import Optional
 
-from setting.messages import MISPRINT, DENIAL
+from setting.lines import MISPRINT, DENIAL
 
 dict_error = {DENIAL: 'Давай все таки порешаем уравнения',
               MISPRINT: 'Ответ должен быть числом'}

@@ -9,7 +9,7 @@ from FSM.check_value import CheckValue
 from FSM.equation_fsm import FSMEquation
 from handlers.handler import Handler
 from setting.config import DICT_TASK
-from setting.messages import MATICA_PREVIEW, DICT_MES_PREVIEW, \
+from setting.lines import MATICA_PREVIEW, DICT_MES_PREVIEW, \
     CANCEL_MES_PREVIEW, FIRST_EXC_ANSWER, ERROR_CORRECTION, YES, MISPRINT, \
     DENIAL
 

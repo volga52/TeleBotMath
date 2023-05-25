@@ -9,7 +9,7 @@ from setting.config import NUMBER_SIMPLE_EQUATIONS, \
     NUMBER_CHECK_FRACTIONS, LIST_OF_NEGATIVES, SLOGAN_APHORISM
 from setting.config import VALUE_MAX_FOR_SIMPLE_EQUATIONS_START as VMAX_SE
 from setting.config import VALUE_MIN_FOR_SIMPLE_EQUATIONS_START as VMIN_SE
-from setting.messages import MISPRINT, DENIAL, YES, MATICBOTELEM_MES_DICT
+from setting.lines import MISPRINT, DENIAL, YES, MATICBOTELEM_MES_DICT
 
 # *** строки 79, 105
 # logger = logging.getLogger('mathic')

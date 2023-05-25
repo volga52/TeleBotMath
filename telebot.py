@@ -7,13 +7,13 @@ from handlers.handler_main import HandlerMain
 from matematica.matic_bot import MaticBotElem
 
 
-# bot = Bot(token=BOT_TOKEN)
-# dp = Dispatcher(bot)
-# dp.math_element = MaticBotElem()
+bot = Bot(token=BOT_TOKEN)
+dp = Dispatcher(bot)
+dp.math_element = MaticBotElem()
 
-# handlers = HandlerMain(dp)
-# handlers.handle()
+handlers = HandlerMain(dp)
+handlers.handle()
 
 
-# if __name__ == '__main__':
-#     executor.start_polling(dp, skip_updates=True)
+if __name__ == '__main__':
+    executor.start_polling(dp, skip_updates=True)

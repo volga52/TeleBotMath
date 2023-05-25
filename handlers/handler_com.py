@@ -5,7 +5,7 @@ from emoji import emojize
 
 from handlers.handler import Handler
 from setting.config import HELP_COM_LIST
-from setting.messages import *
+from setting.lines import *
 
 
 class HandlerCommands(Handler):

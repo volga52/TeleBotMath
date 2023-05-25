@@ -1,6 +1,6 @@
 import os
 
-from setting.messages import NUMBER, FRACTION
+from setting.lines import NUMBER, FRACTION
 from setting.setting_core import Settings
 
 
