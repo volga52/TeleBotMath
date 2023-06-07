@@ -1,5 +1,5 @@
 from handlers.handler_com import HandlerCommands, HandlerEcho
-from handlers.handler_fsm import HandlerFSM
+from handlers.handler_fsm_new import HandlerFSM
 from handlers.handler_inline import HandlerInline
 
 

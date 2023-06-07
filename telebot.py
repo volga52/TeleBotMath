@@ -4,12 +4,12 @@ from aiogram.utils import executor
 
 from setting.config import BOT_TOKEN, NUMBER
 from handlers.handler_main import HandlerMain
-from matematica.matic_bot import MaticBotElem
+# from matematica.matic_bot import MaticBotElem
 
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(bot)
-dp.math_element = MaticBotElem()
+# dp.math_element = MaticBotElem()
 
 handlers = HandlerMain(dp)
 handlers.handle()
